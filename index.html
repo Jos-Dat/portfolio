@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio của Tôi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-icon" id="menuIcon">☰</div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <img src="assets/avatar.png" alt="Avatar" class="avatar">
+        <h1>Xin chào, tôi là Đạt!</h1>
+        <p>Frontend Intern / Web Developer</p>
+        <button id="viewWorkBtn">View My Work</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>Về tôi</h2>
+        <p>Tôi là sinh viên đang học lập trình web. Tôi yêu thích HTML, CSS, JavaScript và đang học thêm về PHP & Laravel.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Dự án của tôi</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="assets/project1.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Website tĩnh đầu tiên của tôi với HTML & CSS.</p>
+            </div>
+            <div class="project-card">
+                <img src="assets/project2.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Form đăng ký với validate bằng JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <img src="assets/project3.png" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Portfolio cá nhân cơ bản với responsive design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Liên hệ với tôi</h2>
+        <form id="contactForm">
+            <label for="name">Tên:</label>
+            <input type="text" id="name">
+            <small class="error" id="nameError"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <small class="error" id="emailError"></small>
+
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" rows="4"></textarea>
+            <small class="error" id="messageError"></small>
+
+            <button type="submit">Gửi</button>
+        </form>
+        <p id="successMessage" class="success"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Dat Nguyen. All rights reserved.</p>
+        <p>🌐 💼 📧 </p>
+    </footer>
+
+</body>
+</html>
