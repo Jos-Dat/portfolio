@@ -159,3 +159,38 @@ footer {
     align-items: center;
   }
 }
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #a703ff;
+}
+body.dark-mode header {
+  background: #333;
+  color: #fff;
+}
+body.dark-mode .hero {
+  background: #2a2a2a;
+}
+body.dark-mode .project-card {
+  background: #333;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+body.dark-mode .contact {
+  background: #2a2a2a;
+}
+body.dark-mode footer {
+  background: #333;
+  color: #ddd;
+}
+/* Nút Dark Mode */
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+body.dark-mode .theme-btn {
+  color: yellow;
+}
